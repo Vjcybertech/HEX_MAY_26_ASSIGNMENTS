@@ -220,3 +220,68 @@ GROUP BY S.SellerName;
 SELECT OrderStatus, COUNT(*) AS OrderCount
 FROM Orders 
 GROUP BY OrderStatus;
+
+SELECT c.CustomerName,o.OrderId,o.OrderStatus
+FROM Customer c
+LEFT JOIN Orders o
+ON c.CustomerId=o.CustomerId;
+
+SELECT o.OrderId,c.CustomerName
+FROM Customer c
+RIGHT JOIN Orders o
+ON c.CustomerId=o.CustomerId;
+
+SELECT c.CustomerName,o.OrderId
+FROM Customer c
+FULL OUTER JOIN Orders o
+ON c.CustomerId=o.CustomerId;
+
+SELECT c.CustomerName,p.ProductName
+FROM Customer c
+CROSS JOIN Product p;
+
+SELECT c.CustomerName
+FROM Customer c
+LEFT JOIN Orders o
+ON c.CustomerId=o.CustomerId
+WHERE o.OrderId IS NULL;
+
+SELECT p.ProductName
+FROM Product p
+LEFT JOIN OrderItem oi
+ON p.ProductId=oi.ProductId
+WHERE oi.OrderItemId IS NULL;
+
+SELECT s.SellerName,p.ProductName
+FROM Seller s
+INNER JOIN Product p
+ON s.SellerId=p.SellerId;
+
+SELECT c.CustomerName,p.ProductName
+FROM Customer c
+INNER JOIN Orders o
+ON c.CustomerId=o.CustomerId
+INNER JOIN OrderItem oi
+ON o.OrderId=oi.OrderId
+INNER JOIN Product p
+ON oi.ProductId=p.ProductId;
+
+SELECT o.OrderId,SUM(oi.Quantity*oi.UnitPrice) AS TotalAmount
+FROM Orders o
+INNER JOIN OrderItem oi
+ON o.OrderId=oi.OrderId
+GROUP BY o.OrderId;
+
+SELECT s.SellerName,SUM(oi.Quantity*oi.UnitPrice) AS TotalSales
+FROM Seller s
+INNER JOIN Product p
+ON s.SellerId=p.SellerId
+INNER JOIN OrderItem oi
+ON p.ProductId=oi.ProductId
+GROUP BY s.SellerName;
+
+SELECT p.ProductName,SUM(oi.Quantity) AS TotalSalesQuantity
+FROM Product p
+INNER JOIN OrderItem oi
+ON p.ProductId=oi.ProductId
+GROUP BY p.ProductName; 
