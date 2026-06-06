@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="E_Commerce_App_NUnit/E_Commerce_App_OrderBilling.csproj" />
+  <Project Path="OrderBillingTest/OrderBillingTest.csproj" />
+</Solution>
