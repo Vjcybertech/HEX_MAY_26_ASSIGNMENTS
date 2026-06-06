@@ -1,0 +1,14 @@
+C:\Users\findv\source\repos\SmartCourierApp\SmartCourierApp\bin\Debug\net10.0\SmartCourierApp.exe
+C:\Users\findv\source\repos\SmartCourierApp\SmartCourierApp\bin\Debug\net10.0\SmartCourierApp.deps.json
+C:\Users\findv\source\repos\SmartCourierApp\SmartCourierApp\bin\Debug\net10.0\SmartCourierApp.runtimeconfig.json
+C:\Users\findv\source\repos\SmartCourierApp\SmartCourierApp\bin\Debug\net10.0\SmartCourierApp.dll
+C:\Users\findv\source\repos\SmartCourierApp\SmartCourierApp\bin\Debug\net10.0\SmartCourierApp.pdb
+C:\Users\findv\source\repos\SmartCourierApp\SmartCourierApp\obj\Debug\net10.0\SmartCourierApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\findv\source\repos\SmartCourierApp\SmartCourierApp\obj\Debug\net10.0\SmartCourierApp.AssemblyInfoInputs.cache
+C:\Users\findv\source\repos\SmartCourierApp\SmartCourierApp\obj\Debug\net10.0\SmartCourierApp.AssemblyInfo.cs
+C:\Users\findv\source\repos\SmartCourierApp\SmartCourierApp\obj\Debug\net10.0\SmartCourierApp.csproj.CoreCompileInputs.cache
+C:\Users\findv\source\repos\SmartCourierApp\SmartCourierApp\obj\Debug\net10.0\SmartCourierApp.dll
+C:\Users\findv\source\repos\SmartCourierApp\SmartCourierApp\obj\Debug\net10.0\refint\SmartCourierApp.dll
+C:\Users\findv\source\repos\SmartCourierApp\SmartCourierApp\obj\Debug\net10.0\SmartCourierApp.pdb
+C:\Users\findv\source\repos\SmartCourierApp\SmartCourierApp\obj\Debug\net10.0\SmartCourierApp.genruntimeconfig.cache
+C:\Users\findv\source\repos\SmartCourierApp\SmartCourierApp\obj\Debug\net10.0\ref\SmartCourierApp.dll
