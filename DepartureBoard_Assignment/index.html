@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Departures Board</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="top-bar">
+        <div>
+            <span class="live-dot"></span>
+            Chennai AirPort · TERMINAL 4
+        </div>
+
+        <div class="clock" id="clock">
+            00:00:00
+        </div>
+    </header>
+
+    <h1>DEPARTURES</h1>
+
+   
+
+    <div class="summary" id="summary"></div>
+
+    <div class="board-header">
+        <div>TIME</div>
+        <div>FLIGHT</div>
+        <div>DESTINATION</div>
+        <div>GATE</div>
+        <div>STATUS</div>
+    </div>
+
+    
+    <div class="board" id="board"></div>
+     <div class="controls">
+        <button id="addBtn">+ Add Departure</button>
+        <button id="resetBtn">Reset Board</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
